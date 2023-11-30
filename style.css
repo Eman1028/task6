@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.project .header .header1 .list .div1 {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: 120vh;
+    padding-left: 20px;
+}
+
+.project .header .header1 h2 {
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    top: px;
+    right: 5px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.project .header {
+    background-image: url(./eid.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+    color: white;
+}
+
+.project .header h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.project .header p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 15px 0;
+
+}
+
+
+.project .header .icons i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.project .data .top {
+    width: 100%;
+    padding: 10%;
+}
+
+.project .data .top .border {
+    width: 60%;
+    height: 50vh;
+    border: 15px solid grey;
+    position: relative;
+    background-color: rgb(92, 88, 88);
+}
+
+
+.page1 h2 {
+    font-size:30px;
+    padding-left: 70vh;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.data .right .p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left : 20px;
+    width:170vh;
+}
+
+header {
+    background-image: url(./eid.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+    color: white;
+}
+
+header .header1 h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+header .list .div1 {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 17px;
+    position: relative;
+    top: -45px;
+    left: 115vh;
+}
+
+.pra {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30vh;
+    font-family: 'Lobster', sans-serif;
+}
+
+.data .right {
+    width: 60%;
+    text-align: center;
+}
+
+.data .top {
+    display: flex;
+
+}
+.buttom .div1{
+    background-color: #444;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+}
+
+.buttom .div2 {
+    background-color: gold;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+}
+
+.buttom .div3 {
+    background-color: #444;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+}
+
+.buttom .div4 {
+    background-color: gold;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+}
+
+.data .buttom i {
+    font-size: 35px;
+    color: floralwhite;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+
+.data .buttom h3 {
+    font-size: 35px;
+}
+
+.data .buttom p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #777;
+}
+
+.buttom {
+    display: flex;
+    padding: 2% 10%;
+    gap: 50px;
+}
+
+.data {
+    background-color: #eee;
+}
+.page h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(210, 30, 171);
+    font-size: 40px;
+    text-align: center;
+}
+
+.page .imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px yellow;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.page .imgs img {
+    height : 40vh;
+    width: 100%;
+}
+.page{
+    margin-bottom: 40px;
+}
+body {
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form { 
+    background-image: url(./8.jpg); 
+    background-size: 100% 100%; 
+    height: 90vh; 
+    text-align: center; 
+    padding-top: 15vh; 
+} 
+ 
+.form form { 
+    height: 77vh; 
+    width: 70%; 
+    padding: 5px; 
+    padding-top: 15px; 
+    margin-left:50vh; 
+    border: 5px solid rgb(57, 85, 4); 
+    border-radius: 20px; 
+    position: relative; 
+    right:17vh; 
+    bottom: 8vh; 
+} 
+ 
+.form h2 { 
+    font-size: 50px; 
+} 
+ 
+.form h3 { 
+    font-size: 25px; 
+} 
+ 
+.form form input { 
+    height:5vh; 
+    padding-left: 6px; 
+    border-bottom: 5px solid yellow; 
+     
+} 
+ 
+textarea { 
+    padding-top: 5px; 
+    padding-left: 3px; 
+    border-bottom: 5px solid yellow; 
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+} 
+ 
+.form form input , textarea , ::placeholder { 
+    width: 83%; 
+    margin-top: 10px; 
+    background-color: rgb(204, 224, 29); 
+    color: white; 
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+} 
+ 
+.form form button { 
+    background-color: rgb(162, 255, 0); 
+    font-size: 30px; 
+    margin: 10px; 
+    padding: 5px; 
+    width: 20%; 
+    
+} 
+.form form :hover{
+    background-color: rgb(209, 21, 209)
+}
+.form form :hover{
+    border-radius: 4px;
+}
+a { 
+    text-decoration: none; 
+    color: white; 
+}
+.footer .footer1 {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-between;
+    background-color: yellow;
+    padding-top: 19vh;
+    font-size: 13px;
+    margin-bottom:-50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .footer1 .foo-1 {
+    font-size: 12px;
+    background-color: #ab9e9e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer .footer1 .fo-1 h2 {
+    margin-bottom: 25px;
+}
+
+.icon-end i {
+    padding-left: 20px;
+    font-size: 50px;
+    position: relative;
+    top: -5vh;
+    left: 75vh;
+}
+footer p {
+     color:#777;
+    font-size: 20px;
+}
+.icon-end .fa-facebook {
+    color: #0d49ca;
+}
+
+.icon-end .fa-twitter {
+    color: #00acee;
+}
+
+.icon-end .fa-google {
+    color: #546405;
+}
+
+.icon-end .fa-instagram {
+    color: #f5360b;
+}
+
+.icon-end .fa-soundcloud {
+    color: #ff7300;
+}
+div.copy{
+    text-align: center;
+}
